@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,300i,400,500,500i,700i,900&display=swap');
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Roboto', sans-serif;
+	box-sizing: border-box;
+	background: rgb(58,181,169);
+	background: radial-gradient(circle, rgba(58,181,169,1) 0%, rgba(41,162,150,1) 68%, rgba(23,103,95,1) 100%);
+	overflow-y: hidden;
+}
+
+
+main {
+	width: 100%;
+	min-height: 90vh;
+	overflow-y: hidden;
+	float: left;
+	display: grid;
+	justify-content: center;
+	align-items: center;
+}
+
+main .box {
+	width: 600px;
+	height: 450px;
+	background-color: white;
+	float: left;
+}
+
+main .box .title {
+	float: left;
+	width: 100%;
+	height: 50px;
+	background-color: rgb(15, 188, 249);
+}
+main .box .title i {
+	float: left;
+	font-size: 30px;
+	padding: 10px;
+	color: white;
+	background-color: rgb(75, 207, 250);
+}
+
+main .box .title h3 {
+	margin: 15px;
+	float: left;
+	color: #f1f1f1;
+}
+
+main .content {
+	float: left;
+	width: 50%;
+	height: 300px;
+	display: grid;
+	justify-content: center;
+	margin-top: 10%;
+	box-shadow: 2px 0px 0px rgb(0,0,0,0.76);
+}
+
+main .content h6 {
+	margin: 40px 0px 0px 10px;
+	color: black;
+	font-size: 14px;
+	font-weight: 300;
+}
+
+main .content input[type=text],
+main .content input[type=password] {
+	margin-top: 10px;
+	border: 1px solid #999;
+	padding: 10px 30px;
+	background-color: #fff;
+	font-family: Roboto;
+	width: 200px;
+	box-shadow: 1px 1px 3px #999;
+}
+
+main i.fa-user,
+main i.fa-key {
+	position: absolute;
+	padding: 20px 0px 0px 10px;
+	color: black;
+}
+
+main button.login {
+	padding: 10px 20px;
+	margin: 30px 0px 0px 65px;
+	border: none;
+	background-color: rgb(5, 196, 107);
+	box-shadow: 2px 2px 0px rgb(11, 232, 129);
+	transition: box-shadow 0.7s;
+	cursor: pointer;
+	color: white;
+}
+
+main button.login:hover {
+	transition: box-shadow 0.7s;
+	box-shadow: 2px 2px 0px rgb(11, 232, 129), 4px 4px 0px rgb(11, 232, 129), 6px 6px 0px rgb(11, 232, 129);
+}
+
+input:focus {
+	outline: none;
+}
+
+main .box2 {
+	float: left;
+	width: 50%;
+	display: grid;
+	justify-content: center;
+}
+
+main .box2 h1 {
+	color: black;
+	margin-top: 50%;
+	font-size: 16px;
+	font-weight: 300;
+}
+
+main .box2 h2 {
+	color: black;
+	margin-top: 10%;
+	font-size: 16px;
+	font-weight: 300;
+}
+
+main button.cadastrar,
+main button.forgot {
+	padding: 10px 20px;
+	margin: 15px;
+	border: none;
+	cursor: pointer;
+	color: white;
+	transition: box-shadow 0.7s;
+}
+
+main button.cadastrar {
+	background-color: rgb(15, 188, 249);
+	box-shadow: 2px 2px 0px rgb(75, 207, 250);
+}
+
+main button.forgot {
+	background-color: rgb(255, 63, 52);
+	box-shadow: 2px 2px 0px rgb(255, 94, 87);
+	margin-left: 25px;
+}
+
+main button.cadastrar:hover {
+	transition: box-shadow 0.7s;
+	box-shadow: 2px 2px 0px rgb(75, 207, 250), 4px 4px 0px rgb(75, 207, 250), 6px 6px 0px rgb(75, 207, 250);
+}
+
+button.forgot:hover {
+	transition: box-shadow 0.7s;
+	box-shadow: 2px 2px 0px rgb(255, 94, 87), 4px 4px 0px rgb(255, 94, 87), 6px 6px 0px rgb(255, 94, 87);	
+}
+
+/* cadastrar_usuario.php */
+
+[verde] {
+	background-color: rgb(106, 176, 76) !important;
+}
+
+[verde-icon] {
+	background-color: rgb(186, 220, 88) !important;
+	font-size: 20px !important;
+	padding: 15px !important;
+}
+
+[button-right] {
+	float: right;
+	padding: 10px 20px;
+	margin: 7px;
+	background-color: rgb(186, 220, 88);
+	color: #fff;
+	border: none;
+	cursor: pointer;
+}
+
+.content h2 {
+	font-size: 14px;
+	color: white;
+	padding: 0px;
+	margin: 20px 0 0 20px;
+	font-weight: 300;
+}
+
+[margin-left] {
+	margin-left: 50px;
+}
+
+.content button.enviar {
+	padding: 10px 20px;
+	margin: 30px 0 0 50px;
+	color: white;
+	background-color: rgb(255, 177, 66);
+	border: none;
+	box-shadow: 2px 2px 0px rgb(255, 218, 121);
+	transition: box-shadow 0.7s;
+}
+
+.content button.enviar:hover {
+	transition: box-shadow 0.7s;
+	cursor:pointer;
+	box-shadow: 2px 2px 0px rgb(255, 218, 121), 4px 4px 0px rgb(255, 218, 121), 6px 6px 0px rgb(255, 218, 121);
+}

@@ -1,0 +1,144 @@
+@media only screen and (max-width: 1640px){
+	
+	.noticias .container .titulo h1 {
+		font-size: 12px;
+	}
+
+	.noticias .container .descricao h1 {
+		font-size: 10px;
+	}
+
+	content .usuarios .usuario {
+		width: 450px;
+	}
+	
+}
+
+@media only screen and (max-width: 1420px) {
+
+	.noticias {
+		width: 100%;
+		float: left;
+	}
+
+	.slides,
+	.parceiros,
+	.produtos {
+		width: calc(100% - 10px);
+		margin-left: 10px;
+	}
+
+	.corpo {
+		width: 100%;
+	}
+}
+
+@media only screen and (max-width: 990px) {
+
+	.noticias .container {
+		width: calc(100% - 10px);
+	}
+
+	.slides .slide,
+	.parceiros .parceiro {
+		width: calc(100% - 40px); 
+		margin-left: 0;
+	}
+}
+
+@media only screen and (max-width: 800px) {
+
+	header h4 {
+		font-size: 16px;
+	}
+
+	header nav ul li i {
+	font-size: 20px;
+	margin-top: 5px;
+	}
+
+	.menu-lateral {
+		display: none;
+	}
+
+	content {
+		width: 100%;
+	}
+
+	.responsive {
+		display: block;
+	}
+}
+
+	@media only screen and (max-width: 651px) {
+
+	header h4 {
+		font-size: 10px;
+		margin: 25px 0px 0px 0px;
+	}
+	
+	header nav {
+		margin-right: 0;
+	}
+
+	header nav ul li i {
+	font-size: 14px;
+	margin-top: 10px;
+	margin-left: -5px;
+	}
+
+	header nav ul li i:hover {
+		padding: 0px 0px !important;
+	}
+
+	header nav ul li a i.fa-id-card::after,
+	header nav ul li a i.fa-user-cog::after,
+	header nav ul li a i.fa-wrench::after,
+	header nav ul li a i.fa-power-off::after {
+		content: '';
+		display: none;
+	}
+
+	.corpo_perfil input[type=text] {
+		width: 150px;
+		margin-right: 10px;
+	}
+
+	content .usuarios .usuario {
+		width: 380px !important;
+	}
+	content .usuarios .usuario .usuario-info h2 {
+		float: left;
+		width: 100%;
+	}
+}
+
+@media only screen and (max-width: 400px) {
+
+	header h4 {
+		display: none;
+	}
+
+	.responsive ul li {
+		margin: 10px 0px 0px 5px;
+		padding: 2px;
+	}
+
+	.responsive ul li a {
+		font-size: 10px;
+	}
+
+	.corpo_perfil input[type=text] {
+		margin-right: 20px;
+	}
+	
+	content .usuarios .usuario {
+		width: 340px !important;
+	}
+
+	content .usuarios .usuario .usuario-info h2 {
+		float: left;
+		width: 100%;
+	}
+
+}
