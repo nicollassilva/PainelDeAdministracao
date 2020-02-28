@@ -4,7 +4,7 @@ Painel desenvolvido afins de estudo por Nícollas Silva.
 
 Para entrar no painel, login padrão:
 
-Email padrão: teste@user.com.br
+Email padrão: teste@user.com.br,
 Senha padrão: teste123
 
 Necessita-se de algum programa que interprete php para rodar o painel, XAMPP, Vertrigo, WAMP, etc...
