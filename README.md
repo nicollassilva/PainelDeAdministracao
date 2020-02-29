@@ -1,5 +1,5 @@
 <h1 align="center"> 
-<img src="https://github.com/ndesigner/PainelDeAdministracao/blob/master/painel/assets/images/arte.png" width="200" alt="Painel">
+<img src="https://github.com/ndesigner/PainelDeAdministracao/blob/master/painel/assets/images/arte.png" width="400" alt="Painel">
 <br>
 <b>Painel de Administração</b>
 </h1>
