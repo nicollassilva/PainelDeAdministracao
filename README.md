@@ -4,6 +4,10 @@
 <b>Painel de Administração</b>
 </h1>
 <p align="center">Um simples e objetivo painel de administração para sites.</p>
+<p align="center">
+   <img src="https://poser.pugx.org/ndesigner/paineldeadministracao/d/total.svg" alt="Total Downloads">
+   <img src="https://img.shields.io/github/forks/ndesigner/paineldeadministracao.svg" alt="Forks">
+</p>
 
 ## INSTALL
 ```
