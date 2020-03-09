@@ -2,5 +2,5 @@
 
 $config = array(
 	'site_title' => 'Painel de Administração',
-	'site_url' => 'http://localhost/sistema2/'
+	'site_url' => 'http://localhost/LayoutPainelDeAdministracao/'
 );
